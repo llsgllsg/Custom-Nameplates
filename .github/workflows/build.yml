@@ -10,12 +10,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    # 可选：可以在这里定义环境变量来覆盖默认值
+    # env:
+    #   GIT_COMMIT_SHORT: my-custom-tag
+    #   GIT_USER_NAME: my-builder
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0           # 获取完整提交历史
-          fetch-tags: true         # 获取所有标签，供 git describe 使用
+        # 无需额外参数
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
