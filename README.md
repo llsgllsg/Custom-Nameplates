@@ -11,7 +11,7 @@
 ![GitHub](https://img.shields.io/github/license/Xiao-MoMi/Custom-Nameplates)
 
 ## How to Build
-
+## 别看了去Action里拿吧
 #### Command Line
 Install JDK 17 & 21. \
 Start terminal and change directory to the project folder.\
